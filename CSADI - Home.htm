@@ -1,0 +1,1066 @@
+<!DOCTYPE html>
+<html lang="en" class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths" style="--vh: 9.86px; --quick-reply-height: 100px; --quick-reply-width: 254px; --quick-reply-right: 20px; --quick-reply-left: unset;"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- ========== Meta Tags ========== -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="infoription" content="Charities - Charity &amp; Nonprofit Template">
+
+    <!-- ========== Favicon Icon ========== -->
+    <link rel="shortcut icon" href="https://csadi.org/assets/assets/img/favicon.png" type="image/x-icon">
+
+    <!-- ========== Start Stylesheet ========== -->
+    <link href="CSADI%20-%20Home_files/bootstrap.min_yHaQ.css" rel="stylesheet">
+    <link href="CSADI%20-%20Home_files/font-awesome.min_yHaQ.css" rel="stylesheet">
+    <link href="CSADI%20-%20Home_files/flaticon-charity-set_yHaQ.css" rel="stylesheet">
+    <link href="CSADI%20-%20Home_files/magnific-popup_yHaQ.css" rel="stylesheet">
+    <link href="CSADI%20-%20Home_files/owl.carousel.min_yHaQ.css" rel="stylesheet">
+    <link href="CSADI%20-%20Home_files/owl.theme.default.min_yHaQ.css" rel="stylesheet">
+    <link href="CSADI%20-%20Home_files/animate_yHaQ.css" rel="stylesheet">
+    <link href="CSADI%20-%20Home_files/bootsnav_yHaQ.css" rel="stylesheet">
+    <link href="CSADI%20-%20Home_files/style_yHaQ.css" rel="stylesheet">
+    <link href="CSADI%20-%20Home_files/responsive_yHaQ.css" rel="stylesheet">
+    <!-- ========== End Stylesheet ========== -->
+
+    <title>CSADI - Home</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.bunny.net/">
+    <link href="CSADI%20-%20Home_files/css_yHaQ.css" rel="stylesheet">
+
+    <style>
+        .socials {
+            font-size: 20px;
+        }
+
+        .fbSocials {
+            color: rgb(71, 71, 236);
+        }
+
+        .lkSocials {
+            color: rgb(89, 185, 234);
+        }
+
+        @media screen and (max-width: 700px) {
+            .project-view-image {
+                display: none !important;
+            }
+        }
+
+        /* CSS for carousel images */
+        .carousel-img-project {
+            max-width: 100%;
+            /* Ensure the image doesn't exceed the width of its container */
+            height: auto;
+            /* Maintain aspect ratio */
+            object-fit: contain;
+            /* Ensure the image covers the container without distortion */
+        }
+
+        /* Optional: Control the size of the carousel container */
+        .pf-thum-carousel-project {
+            width: 100%;
+            /* Adjust as needed */
+            overflow: hidden;
+            /* Hide overflow if images are too big */
+        }
+
+        .carousel-img-project {
+            width: 100%;
+            /* Adjust width as needed */
+            max-height: 500px;
+            /* Limit the height of images */
+            object-fit: contain;
+            /* Ensure image covers the area without distortion */
+        }
+    </style>
+    <!-- Livewire Styles --><style>[wire\:loading][wire\:loading], [wire\:loading\.delay][wire\:loading\.delay], [wire\:loading\.inline-block][wire\:loading\.inline-block], [wire\:loading\.inline][wire\:loading\.inline], [wire\:loading\.block][wire\:loading\.block], [wire\:loading\.flex][wire\:loading\.flex], [wire\:loading\.table][wire\:loading\.table], [wire\:loading\.grid][wire\:loading\.grid], [wire\:loading\.inline-flex][wire\:loading\.inline-flex] {display: none;}[wire\:loading\.delay\.none][wire\:loading\.delay\.none], [wire\:loading\.delay\.shortest][wire\:loading\.delay\.shortest], [wire\:loading\.delay\.shorter][wire\:loading\.delay\.shorter], [wire\:loading\.delay\.short][wire\:loading\.delay\.short], [wire\:loading\.delay\.default][wire\:loading\.delay\.default], [wire\:loading\.delay\.long][wire\:loading\.delay\.long], [wire\:loading\.delay\.longer][wire\:loading\.delay\.longer], [wire\:loading\.delay\.longest][wire\:loading\.delay\.longest] {display: none;}[wire\:offline][wire\:offline] {display: none;}[wire\:dirty]:not(textarea):not(input):not(select) {display: none;}:root {--livewire-progress-bar-color: #2299dd;}[x-cloak] {display: none !important;}</style>
+<style>/* Make clicks pass-through */
+
+    #nprogress {
+      pointer-events: none;
+    }
+
+    #nprogress .bar {
+      background: var(--livewire-progress-bar-color, #29d);
+
+      position: fixed;
+      z-index: 1031;
+      top: 0;
+      left: 0;
+
+      width: 100%;
+      height: 2px;
+    }
+
+    /* Fancy blur effect */
+    #nprogress .peg {
+      display: block;
+      position: absolute;
+      right: 0px;
+      width: 100px;
+      height: 100%;
+      box-shadow: 0 0 10px var(--livewire-progress-bar-color, #29d), 0 0 5px var(--livewire-progress-bar-color, #29d);
+      opacity: 1.0;
+
+      -webkit-transform: rotate(3deg) translate(0px, -4px);
+          -ms-transform: rotate(3deg) translate(0px, -4px);
+              transform: rotate(3deg) translate(0px, -4px);
+    }
+
+    /* Remove these to get rid of the spinner */
+    #nprogress .spinner {
+      display: block;
+      position: fixed;
+      z-index: 1031;
+      top: 15px;
+      right: 15px;
+    }
+
+    #nprogress .spinner-icon {
+      width: 18px;
+      height: 18px;
+      box-sizing: border-box;
+
+      border: solid 2px transparent;
+      border-top-color: var(--livewire-progress-bar-color, #29d);
+      border-left-color: var(--livewire-progress-bar-color, #29d);
+      border-radius: 50%;
+
+      -webkit-animation: nprogress-spinner 400ms linear infinite;
+              animation: nprogress-spinner 400ms linear infinite;
+    }
+
+    .nprogress-custom-parent {
+      overflow: hidden;
+      position: relative;
+    }
+
+    .nprogress-custom-parent #nprogress .spinner,
+    .nprogress-custom-parent #nprogress .bar {
+      position: absolute;
+    }
+
+    @-webkit-keyframes nprogress-spinner {
+      0%   { -webkit-transform: rotate(0deg); }
+      100% { -webkit-transform: rotate(360deg); }
+    }
+    @keyframes nprogress-spinner {
+      0%   { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    </style><link rel="stylesheet" href="CSADI%20-%20Home_files/sdk_yHaQ.css" id="chatway-widget-css"><style data-styled="active" data-styled-version="5.3.11"></style></head>
+
+<body class="font-sans antialiased text-gray-900 chatway--active"><div class="wrapper">
+    <!-- Preloader Start -->
+    <div class="se-pre-con" style="display: none;"></div>
+    <!-- Preloader Ends -->
+
+
+    <!-- Start Header Top 
+    ============================================= -->
+    <div wire:snapshot="{&quot;data&quot;:[],&quot;memo&quot;:{&quot;id&quot;:&quot;1d866aWifnV9UbYKAuzY&quot;,&quot;name&quot;:&quot;home.startheader&quot;,&quot;path&quot;:&quot;\/&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;children&quot;:[],&quot;scripts&quot;:[],&quot;assets&quot;:[],&quot;errors&quot;:[],&quot;locale&quot;:&quot;en&quot;},&quot;checksum&quot;:&quot;0c57fd42b06326a41069a1c3e504a774adbbc632fbb580c27d83f4f703fa1588&quot;}" wire:effects="[]" wire:id="1d866aWifnV9UbYKAuzY">
+    <div class="top-bar-area one-line bg-dark text-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9">
+                    <div class="info box">
+                        <ul>
+                            <li>
+                                <p>
+                                    <i class="fas fa-envelope-open"></i> <span>admin@csadi.org</span>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <i class="fas fa-mobile-alt"></i> <span>+234 806 572 5403</span>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="text-right topbar-button col-md-3">
+                    <a href="" class="btn btn-theme circle effect standard btn-sm">Donate Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>    <!-- End Header Top -->
+
+    <!-- Header ============================================= -->
+    <div wire:snapshot="{&quot;data&quot;:[],&quot;memo&quot;:{&quot;id&quot;:&quot;2AzATayMKCh5uptxs35w&quot;,&quot;name&quot;:&quot;home.header&quot;,&quot;path&quot;:&quot;\/&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;children&quot;:[],&quot;scripts&quot;:[],&quot;assets&quot;:[],&quot;errors&quot;:[],&quot;locale&quot;:&quot;en&quot;},&quot;checksum&quot;:&quot;0637eea232fc8a4eb8978f856bebacd0446eb72212334335ecfb35ed4547b8c0&quot;}" wire:effects="[]" wire:id="2AzATayMKCh5uptxs35w">
+    <header>
+        <!-- Start Navigation -->
+        <div class="wrap-sticky" style="height: 107px;"><nav class="navbar navbar-default navbar-sticky bootsnav on no-full sticked">
+    
+            <div class="container">
+    
+                <!-- Start Header Navigation -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand" href="https://csadi.org/">
+                        <img src="CSADI%20-%20Home_files/logo_yHaQ.png" class="logo logo-display" alt="Logo">
+                    </a>
+                </div>
+                <!-- End Header Navigation -->
+    
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="navbar-menu">
+                    <ul class="nav navbar-nav navbar-right" data-in="#" data-out="#">
+                        <li>
+                            <a href="https://csadi.org/">Home</a>
+                        </li>
+                        <li>
+                            <a href="https://csadi.org/about">About</a>
+                        </li>
+                        <li>
+                            <a href="https://csadi.org/contact">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="https://csadi.org/projects">Projects</a>
+                        </li>
+                        <li>
+                            <a href="https://csadi.org/gallery">Gallery</a>
+                        </li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div>
+    
+        </nav></div>
+        <!-- End Navigation -->
+    
+    </header>
+</div>    <!-- End Header -->
+
+    <!-- Start page main content #put page content here ============================================= -->
+    <!-- Start Banner ============================================= -->
+<div class="banner-area text-bg">
+    <div id="bootcarousel" class="carousel slide item-bg animate_text" data-ride="carousel">
+        <!-- Wrapper for slides -->
+        <div class="uppercase carousel-inner text-light carousel-zoom">
+            <div class="item">
+                <div class="bg-fixed slider-thumb" style="background-image: url(assets/assets/img/pics/ANRIN/SAAA.jpg);"></div>
+                <div class="box-table">
+                    <div class="shadow box-cell dark">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <div class="content">
+                                        <h4 data-animation="animated slideInRight" class="">Join Us in Making a Difference!</h4>
+                                        <h1 data-animation="animated slideInLeft" class="">Transform Lives Through Health,
+                                            Education, and Livelihoods</h1>
+                                        <a class="btn btn-light effect btn-sm" href="https://csadi.org/about" data-animation="animated slideInUp">Learn more</a>
+                                        <a class="btn btn-theme effect btn-sm" href="#" data-animation="animated slideInUp">Donate</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="bg-fixed slider-thumb" style="background-image: url(assets/assets/img/pics/ADFINR/IMG-20240702-WA0079.jpg);"></div>
+                <div class="box-table">
+                    <div class="shadow box-cell dark">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <div class="content" data-animation="animated slideInRight">
+                                        <h4 data-animation="animated slideInRight" class="">Join Us in Making a Difference!</h4>
+                                        <h1 data-animation="animated slideInLeft" class="">Champion the Rights and Potential of
+                                            Women and Children
+                                        </h1>
+                                        <a class="btn btn-light effect btn-sm" href="https://csadi.org/about" data-animation="animated slideInUp">Learn more</a>
+                                        <a class="btn btn-theme effect btn-sm" href="#" data-animation="animated slideInUp">Donate</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item active">
+                <div class="bg-fixed slider-thumb" style="background-image: url(assets/assets/img/pics/CHAI/GHKLMN.jpg);"></div>
+                <div class="box-table">
+                    <div class="shadow box-cell dark">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <div class="content animated slideInRight" data-animation="animated slideInRight">
+                                        <h4 data-animation="animated slideInRight" class="animated slideInRight">Join Us in Making a Difference!</h4>
+                                        <h1 data-animation="animated slideInLeft" class="animated slideInLeft">
+                                            Enhance Livelihoods, Education, and Health for a Stronger Community
+                                        </h1>
+                                        <a class="btn btn-light effect btn-sm animated slideInUp" href="https://csadi.org/about" data-animation="animated slideInUp">Learn more</a>
+                                        <a class="btn btn-theme effect btn-sm animated slideInUp" href="#" data-animation="animated slideInUp">Donate</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Wrapper for slides -->
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#bootcarousel" data-slide="prev">
+            <i class="fa fa-angle-left"></i>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#bootcarousel" data-slide="next">
+            <i class="fa fa-angle-right"></i>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+<!-- End Banner -->
+
+<!-- Start Services 
+============================================= -->
+<section class="services-area bg-gray carousel-shadow">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="text-center service-carousel owl-carousel owl-theme owl-loaded owl-drag">
+                    
+                    
+                    
+                    
+                    
+                <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-780px, 0px, 0px); transition: 0.25s; width: 1950px;"><div class="owl-item" style="width: 360px; margin-right: 30px;"><div class="service-item">
+                        <div class="thumb">
+                            <img src="CSADI%20-%20Home_files/QYUI_yHaQ.jpg" alt="Thumb">
+                        </div>
+                        <div class="info">
+                            <h4>Vaccination Awareness Campaign</h4>
+                            <p>
+                                Empower Your Community. Get Informed and Participate in Our Routine Immunization
+                                Campaign!
+                            </p>
+                        </div>
+                    </div></div><div class="owl-item" style="width: 360px; margin-right: 30px;"><div class="service-item">
+                        <div class="thumb">
+                            <img src="CSADI%20-%20Home_files/2_yHaQ.jpg" alt="Thumb">
+                        </div>
+                        <div class="info">
+                            <h4>Medical Care</h4>
+                            <p>
+                                Fostering a Healthy Community Through Balanced Nutrition with a Sustainable Nutritional
+                                Campaign
+                            </p>
+                        </div>
+                    </div></div><div class="owl-item active" style="width: 360px; margin-right: 30px;"><div class="service-item">
+                        <div class="thumb">
+                            <img src="CSADI%20-%20Home_files/PHOTO-2024-07-03-17-28-15_yHaQ.jpg" alt="Thumb">
+                        </div>
+                        <div class="info">
+                            <h4>Enrollment Drive</h4>
+                            <p>
+                                Enhancing Enrollment and Retention Through Community Engagement and Collaborative
+                                Stakeholder Action.
+                            </p>
+                        </div>
+                    </div></div><div class="owl-item active" style="width: 360px; margin-right: 30px;"><div class="service-item">
+                        <div class="thumb">
+                            <img src="CSADI%20-%20Home_files/SJKLOK_yHaQ.jpg" alt="Thumb">
+                        </div>
+                        <div class="info">
+                            <h4>Stakeholder Engagement</h4>
+                            <p>
+                                Fostering Change Through Stakeholder Engagement and Collective Action in Children's
+                                Education and Community Development
+                            </p>
+                        </div>
+                    </div></div><div class="owl-item active" style="width: 360px; margin-right: 30px;"><div class="service-item">
+                        <div class="thumb">
+                            <img src="CSADI%20-%20Home_files/PHOTO-2024-07-03-23-29-36_yHaQ.jpg" alt="Thumb">
+                        </div>
+                        <div class="info">
+                            <h4>Boosting Out-of-School Enrollment</h4>
+                            <p>
+                                Ensuring Every Child Access to Education Through Ongoing Community Support and
+                                Ownership.
+                            </p>
+                        </div>
+                    </div></div></div></div><div class="owl-nav disabled"><div class="owl-prev"><i class="fa fa-angle-left"></i></div><div class="owl-next"><i class="fa fa-angle-right"></i></div></div><div class="owl-dots"><div class="owl-dot"><span></span></div><div class="owl-dot active"><span></span></div></div></div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End services area -->
+
+<!-- Start Help Step 
+============================================= -->
+<div class="help-step-area default-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 info">
+                <h2>Building Stronger Communities Through Health and Education</h2>
+                <p>
+                    Fostering community health and education is essential for building resilient and thriving societies.
+                    By prioritizing health and education, we lay the foundation for sustainable development and
+                    well-being. Community health initiatives, such as vaccination drives and nutrition programs, are
+                    crucial in preventing disease and promoting overall wellness. These efforts ensure that individuals,
+                    especially children, have the opportunity to grow up healthy and productive.
+
+                    In parallel, enhancing educational access and quality equips individuals with the skills and
+                    knowledge needed to succeed. Engaging local communities in educational activities fosters a
+                    supportive environment where learning is valued and encouraged. By combining these efforts, we
+                    create a holistic approach to community development, where health and education go hand in hand.
+                    Collaborative actions and sustained support from all community members are key to achieving
+                    long-lasting impact and improving the quality of life for everyone.
+                </p>
+                
+            </div>
+            <div class="col-md-7 items">
+                <div class="row">
+                    
+                    <div class="item col-md-12 col-sm-12">
+                        <div class="content">
+                            <div class="thumb">
+                                <img src="CSADI%20-%20Home_files/BHD_yHaQ.jpg" alt="Thumb">
+                            </div>
+                            <div class="info">
+                                <a href="https://csadi.org/about" class="btn btn-theme effect btn-sm">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Help Step -->
+
+<!-- Start Recent Causes
+============================================= -->
+<div class="recent-causes-area bg-gray default-padding">
+    <div class="container">
+        <div class="row">
+            <div class="text-center site-heading">
+                <div class="col-md-8 col-md-offset-2">
+                    <h2>
+                        <marquee behavior="" direction="" scrollamount="6">Recent Projects .... </marquee>
+                    </h2>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="recent-causes-items causes-carousel owl-carousel owl-theme owl-loaded owl-drag">
+                                        
+                                        
+                                    <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all; width: 2280px;"><div class="owl-item active" style="width: 1140px;"><div class="item">
+                        <center>
+                            <div class="bg-cover col-md-6 thumb" style="background-image: url('https://csadi.org/storage/project_placeholder_images/0VX17cgTvFl1pFWShLJrmvjNM33HFzImMJSyD8cJ.jpg');">
+                            </div>
+                            <div class="col-md-6 info">
+                                <h2>Children's Education In the Northern Part of Nigeria</h2>
+                                <ul>
+                                    <li>Duration <span> <i class="fas fa-calendar-alt"></i> 2024-08-22
+                                            -
+                                            2024-08-31</span></li>
+                                    <li>Target Beneficiaries <span> <i class="fas fa-users"></i>
+                                            Children, Teenages</span>
+                                    </li>
+                                    <li>Funded By <span> <i class="fa fa-wallet"></i> Save the Children</span>
+                                    </li>
+                                    <li>
+                                        Location <span> <i class="fas fa-map-marker-alt"></i>
+                                            Kano villages</span>
+                                    </li>
+                                </ul>
+                                <p>
+                                    hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+                                </p>
+                                <a class="btn btn-theme effect btn-sm" href="https://csadi.org/projects/9cd39ce8-202e-4a28-a943-733ff062605e">Learn more <i class="fas fa-angle-right"></i></a>
+                            </div>
+                        </center>
+
+                    </div></div><div class="owl-item" style="width: 1140px;"><div class="item">
+                        <center>
+                            <div class="bg-cover col-md-6 thumb" style="background-image: url('https://csadi.org/storage/project_placeholder_images/ac9GMK9XdMFUaGQyI7mVAk8FLaUiEJjZV6Ub4E0D.jpg');">
+                            </div>
+                            <div class="col-md-6 info">
+                                <h2>Children's Food</h2>
+                                <ul>
+                                    <li>Duration <span> <i class="fas fa-calendar-alt"></i> 2024-08-22
+                                            -
+                                            2024-08-31</span></li>
+                                    <li>Target Beneficiaries <span> <i class="fas fa-users"></i>
+                                            Children</span>
+                                    </li>
+                                    <li>Funded By <span> <i class="fa fa-wallet"></i> Mr Stephen John</span>
+                                    </li>
+                                    <li>
+                                        Location <span> <i class="fas fa-map-marker-alt"></i>
+                                            Abuja villages</span>
+                                    </li>
+                                </ul>
+                                <p>
+                                    Feed the nation well
+                                </p>
+                                <a class="btn btn-theme effect btn-sm" href="https://csadi.org/projects/9cd39bcc-a1b5-4a9c-90c9-f2b4080c8532">Learn more <i class="fas fa-angle-right"></i></a>
+                            </div>
+                        </center>
+
+                    </div></div></div></div><div class="owl-nav"><div class="owl-prev disabled"><i class="fa fa-angle-left"></i></div><div class="owl-next"><i class="fa fa-angle-right"></i></div></div><div class="owl-dots disabled"></div></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Recent Causes -->
+
+<!-- Start completed Projects
+============================================= -->
+<div class="popular-causes-area default-padding bottom-less">
+    <div class="container">
+        <div class="row">
+            <div class="text-center site-heading">
+                <div class="col-md-8 col-md-offset-2">
+                    <h2>Completed Projects</h2>
+                    <p>
+                        We are proud to showcase the remarkable achievements of our completed projects, each one a testament to our commitment to making a difference. From expanding educational opportunities to enhancing community health, our projects have made a significant impact on the lives of those we serve. Through innovative solutions and collaborative efforts, we've seen tangible improvements in access to education, health services, and overall community well-being. Our dedicated team and volunteers have worked tirelessly to turn visions into reality, creating lasting change and inspiring hope. As we reflect on these successes, we remain motivated and excited for the future, continuing to drive progress and foster positive outcomes. Thank you to everyone who has supported and contributed to these transformative&nbsp;initiatives.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="popular-causes-items">
+                                <div class="col-md-6 col-sm-6 equal-height" style="height: 765px;">
+                    <div class="item">
+                        <div class="thumb" style="object-fit: cover; height: 400px;">
+                            <img src="CSADI%20-%20Home_files/ac9GMK9XdMFUaGQyI7mVAk8FLaUiEJjZV6Ub4E0D_yHaQ.jpg" alt="Thumb">
+                        </div>
+                        <div class="info">
+                            <h4>Children's Food</h4>
+                            <ul>
+                                <li>Duration <span> <i class="fas fa-calendar-alt"></i> 2024-08-22 -
+                                        2024-08-31</span></li>
+                                <li>Target Beneficaries <span> <i class="fas fa-map-marker-alt"></i>
+                                        Children</span>
+                                </li>
+                                <li>Funder <span> <i class="fa fa-wallet"></i> Mr Stephen John</span>
+                                </li>
+                                <li>
+                                    Location <span> <i class="fas fa-map-marker-alt"></i> Abuja villages</span>
+                                </li>
+                            </ul>
+                            <p>
+                                Feed the nation well
+                            </p>
+                            <a class="btn btn-theme effect btn-sm" href="https://csadi.org/projects/9cd39bcc-a1b5-4a9c-90c9-f2b4080c8532">
+                                Learn more
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                                <div class="col-md-6 col-sm-6 equal-height" style="height: 765px;">
+                    <div class="item">
+                        <div class="thumb" style="object-fit: cover; height: 400px;">
+                            <img src="CSADI%20-%20Home_files/0VX17cgTvFl1pFWShLJrmvjNM33HFzImMJSyD8cJ_yHaQ.jpg" alt="Thumb">
+                        </div>
+                        <div class="info">
+                            <h4>Children's Education In the Northern Part of Nigeria</h4>
+                            <ul>
+                                <li>Duration <span> <i class="fas fa-calendar-alt"></i> 2024-08-22 -
+                                        2024-08-31</span></li>
+                                <li>Target Beneficaries <span> <i class="fas fa-map-marker-alt"></i>
+                                        Children, Teenages</span>
+                                </li>
+                                <li>Funder <span> <i class="fa fa-wallet"></i> Save the Children</span>
+                                </li>
+                                <li>
+                                    Location <span> <i class="fas fa-map-marker-alt"></i> Kano villages</span>
+                                </li>
+                            </ul>
+                            <p>
+                                hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+                            </p>
+                            <a class="btn btn-theme effect btn-sm" href="https://csadi.org/projects/9cd39ce8-202e-4a28-a943-733ff062605e">
+                                Learn more
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Popular Causes -->
+
+<!-- Start Make Donation 
+============================================= -->
+<div class="donation-form default-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 form">
+                <h2>Make a donation now</h2>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Donation Details</h3>
+                    </div>
+                    <div class="row">
+                        <div class="panel-body">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="Amount">Amount</label>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" id="Amount" placeholder="$129.00" required="">
+                                        <span class="input-group-addon"><i class="fas fa-dollar-sign"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <label for="donateType">Frequency</label>
+                                <select id="donateType" class="form-control">
+
+                                    <option value="once" selected="selected">Once</option>
+
+                                    <option value="weekly">Weekly</option>
+                                    <option value="Fortnightly">Fortnightly</option>
+                                    <option value="Monthly">Monthly</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Payment Details</h3>
+                    </div>
+                    <div class="panel-body">
+                        <form>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="cardNumber">Card Number</label>
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" id="cardNumber" placeholder="Valid Card Number" required="">
+                                            <span class="input-group-addon"><i class="fas fa-credit-card"></i></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-7 col-sm-7 col-xs-8">
+                                    <div class="form-group">
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <label for="expMonth">Expiration Date</label>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6 col-sm-6 col-xs-6">
+                                                <input type="text" class="form-control" id="expMonth" placeholder="MM" required="" data-stripe="exp_month">
+                                            </div>
+                                            <div class="col-md-6 col-sm-6 col-xs-6">
+                                                <input type="text" class="form-control" name="expYear" placeholder="YY" required="" data-stripe="exp_year">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-5 col-sm-5 col-xs-4 pull-right">
+                                    <div class="form-group">
+                                        <label for="cvCode">CV Code</label>
+                                        <input type="password" class="form-control" id="cvCode" placeholder="CV" required="" data-stripe="cvc">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <button class="btn btn-theme effect btn-sm" type="submit">Donate Now</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center col-md-6 faq-items">
+                <h2> <span class="float-start">Our Policies </span> </h2>
+                <!-- Start Accordion -->
+                <div class="acd-items acd-arrow">
+                    <div class="panel-group symb" id="accordion">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#ac1">
+                                        Anti-Bribery &amp; Corruption (ABC) Policy
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="ac1" class="panel-collapse collapse in">
+                                <div class="panel-body">
+                                    <h6 style="font-weight: bold"> POLICY STATEMENT</h6>
+                                    <p>
+                                        1.1 - ​It is our policy to conduct all of our business in an honest and ethical
+                                        manner. We
+                                        take a zero-tolerance approach to Bribery and Corruption and are committed to
+                                        acting
+                                        professionally, fairly and with integrity in all our business dealings and
+                                        relationships
+                                        wherever we operate and implementing and enforcing effective systems to counter
+                                        bribery.
+                                    </p>
+                                    <p>
+                                        He in just mr door body held john down he. So journey greatly or garrets. Draw
+                                        door kept do so come on open mean. Estimating stimulated how reasonably
+                                        precaution diminution she simplicity sir but. Questions am sincerity zealously
+                                        concluded consisted or no gentleman it.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#ac2">
+                                        GIFTS, INVITATIONS &amp; HOSPITALITY
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="ac2" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <p>
+                                        4.1​This policy does not prohibit normal and appropriate hospitality (given and
+                                        received) to
+                                        or from Third Parties.
+
+                                        4.2​You are prohibited from accepting a gift or giving a gift to a third party
+                                        in the
+                                        following situations:
+
+                                        (a) it is made with the intention of influencing a Third Party to obtain or
+                                        retain business,
+                                        to gain a business advantage, or to reward the provision or retention of
+                                        business or a
+                                        business advantage, or in explicit or implicit exchange for favours or benefits;
+                                        (b) it is given in your name and not in the name of the Company;
+                                        etc..
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#ac3">
+                                        ​FACILITATION PAYMENTS &amp; KICKBACKS
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="ac3" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <p>
+                                        5.1​In many jurisdictions, making Facilitation Payments is illegal. We do not
+                                        make, and will
+                                        not accept, Facilitation Payments or Kickbacks of any kind anywhere in the
+                                        world.
+
+                                        5.2​Where the facilitation payment is being extorted or you are being coerced to
+                                        pay it and
+                                        your safety or liberty is under threat or you feel you have no alternative but
+                                        to pay for
+                                        personal or family peace of mind, then pay the Facilitation Payment and report
+                                        this to your
+                                        line manager as soon as possible.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#ac4">
+                                        PROTECTION
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="ac4" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <p>
+                                        7.1​Employees who refuse to take part in bribery or corruption, or report in
+                                        good faith
+                                        under this policy their suspicion that an actual or potential bribery or other
+                                        corruption
+                                        offence has taken place or may take place in the future will be protected from
+                                        detrimental
+                                        treatment/retaliation. Detrimental treatment includes dismissal, disciplinary
+                                        action,
+                                        threats or other unfavourable treatment connected with raising a concern.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Accordion -->
+                <a href="https://csadi.org/policies" class="btn btn-theme effect btn-sm" style="margin: 8px 0px; float:right;">
+                    View All Policies ..
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Make Donation -->
+
+<!-- Start Team Members
+============================================= -->
+<div class="team-members-area item-white bg-gray default-padding">
+    <div class="container">
+        <div class="row">
+            <div class="text-center site-heading">
+                <div class="col-md-8 col-md-offset-2">
+                    <h2>Meet our Team</h2>
+                    <p>
+                        Our dedicated volunteers and team members are the driving force behind our mission. Their unwavering commitment, passion, and expertise fuel our efforts to create meaningful change in the community. Our volunteers bring diverse skills and perspectives, working tirelessly to support our programs and initiatives. Together, our team collaborates to address challenges, implement solutions, and make a tangible impact on the lives of those we serve. We value their hard work, creativity, and dedication, which are essential&nbsp;to&nbsp;our&nbsp;success.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 team-member-info">
+                <div class="team-carousel-items owl-carousel owl-theme owl-loaded owl-drag">
+                                        
+                                        
+                                        
+                                        
+                                    <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-3420px, 0px, 0px); transition: 0.25s; width: 4560px;"><div class="owl-item" style="width: 1140px;"><div class="item">
+                        <div class="col-md-6 thumb">
+                            <img src="CSADI%20-%20Home_files/3jGCSH1PrbXfyrxQ6zpDiDSTsi9eHGOYEaE0HYj1_yHaQ.png" alt="Team">
+                        </div>
+                        <div class="col-md-6 info title">
+                            <h3>Dahiru Sanda</h3>
+
+                            <h5>Finance Manager</h5>
+                            <hr>
+                            <h5>About</h5>
+                            <p>
+                                Deleniti quis dolore  provident voluptas. Cum
+                            </p>
+                        </div>
+                    </div></div><div class="owl-item" style="width: 1140px;"><div class="item">
+                        <div class="col-md-6 thumb">
+                            <img src="CSADI%20-%20Home_files/abk9ma2Wr0HeXzeUxwQ7GOGT2qjY4r6kPHrI3Srj_yHaQ.jpg" alt="Team">
+                        </div>
+                        <div class="col-md-6 info title">
+                            <h3>Rafiat Mustapha</h3>
+
+                            <h5>Human Resource Manager</h5>
+                            <hr>
+                            <h5>About</h5>
+                            <p>
+                                Non inventore sint magni quidem aut sint ex. Dolores doloremque dolore
+                            </p>
+                        </div>
+                    </div></div><div class="owl-item" style="width: 1140px;"><div class="item">
+                        <div class="col-md-6 thumb">
+                            <img src="CSADI%20-%20Home_files/qzOJyRyTGG07sO6kLCTApIb3P370VsBhOZXVeZE2_yHaQ.jpg" alt="Team">
+                        </div>
+                        <div class="col-md-6 info title">
+                            <h3>Zainab Ahmad Suleiman</h3>
+
+                            <h5>Executive Director/Founder CSADI</h5>
+                            <hr>
+                            <h5>About</h5>
+                            <p>
+                                Quis sunt nam quis voluptas eum.
+                            </p>
+                        </div>
+                    </div></div><div class="owl-item active" style="width: 1140px;"><div class="item">
+                        <div class="col-md-6 thumb">
+                            <img src="CSADI%20-%20Home_files/VTZW7YURkU2LUmDJwaJLzQfGqFKKIP8zI5fEdIvo_yHaQ.jpg" alt="Team">
+                        </div>
+                        <div class="col-md-6 info title">
+                            <h3>Zainab Ahmed Abubakar</h3>
+
+                            <h5>Program Manager</h5>
+                            <hr>
+                            <h5>About</h5>
+                            <p>
+                                lllllllllllllllllmmmmmmmmmmmmmmmmmmmmmmmmm
+                            </p>
+                        </div>
+                    </div></div></div></div><div class="owl-nav"><div class="owl-prev"><i class="fa fa-angle-left"></i></div><div class="owl-next disabled"><i class="fa fa-angle-right"></i></div></div><div class="owl-dots disabled"></div></div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Team Members -->
+
+<!-- Clients
+============================================= -->
+<div class="clients-area bg-gray default-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="text-center clients-items owl-carousel owl-theme owl-loaded owl-drag">
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-1160px, 0px, 0px); transition: 0.25s; width: 2320px;"><div class="owl-item" style="width: 212px; margin-right: 20px;"><div class="single-item">
+                        <a href="#"><img src="CSADI%20-%20Home_files/1_yHaQ.png" alt="Clients"></a>
+                    </div></div><div class="owl-item" style="width: 212px; margin-right: 20px;"><div class="single-item">
+                        <a href="#"><img src="CSADI%20-%20Home_files/2_yHaQ.png" alt="Clients"></a>
+                    </div></div><div class="owl-item" style="width: 212px; margin-right: 20px;"><div class="single-item">
+                        <a href="#"><img src="CSADI%20-%20Home_files/3_yHaQ.png" alt="Clients"></a>
+                    </div></div><div class="owl-item" style="width: 212px; margin-right: 20px;"><div class="single-item">
+                        <a href="#"><img src="CSADI%20-%20Home_files/4_yHaQ.png" alt="Clients"></a>
+                    </div></div><div class="owl-item" style="width: 212px; margin-right: 20px;"><div class="single-item">
+                        <a href="#"><img src="CSADI%20-%20Home_files/5_yHaQ.png" alt="Clients"></a>
+                    </div></div><div class="owl-item active" style="width: 212px; margin-right: 20px;"><div class="single-item">
+                        <a href="#"><img src="CSADI%20-%20Home_files/6_yHaQ.png" alt="Clients"></a>
+                    </div></div><div class="owl-item active" style="width: 212px; margin-right: 20px;"><div class="single-item">
+                        <a href="#"><img src="CSADI%20-%20Home_files/7_yHaQ.png" alt="Clients"></a>
+                    </div></div><div class="owl-item active" style="width: 212px; margin-right: 20px;"><div class="single-item">
+                        <a href="#"><img src="CSADI%20-%20Home_files/8_yHaQ.png" alt="Clients"></a>
+                    </div></div><div class="owl-item active" style="width: 212px; margin-right: 20px;"><div class="single-item">
+                        <a href="#"><img src="CSADI%20-%20Home_files/9_yHaQ.png" alt="Clients"></a>
+                    </div></div><div class="owl-item active" style="width: 212px; margin-right: 20px;"><div class="single-item">
+                        <a href="#"><img src="CSADI%20-%20Home_files/1_yHaQ.png" alt="Clients"></a>
+                    </div></div></div></div><div class="owl-nav"><div class="owl-prev"><i class="fa fa-angle-left"></i></div><div class="owl-next disabled"><i class="fa fa-angle-right"></i></div></div><div class="owl-dots disabled"></div></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Clients -->
+
+
+
+    <!-- Start Footer ============================================= -->
+    <footer class="default-padding-top text-light">
+    <div class="container">
+        <div class="row">
+            <div class="f-items fv1">
+                <div class="col-md-4 item">
+                    <div class="f-item">
+                        <h4>Address</h4>
+                        <div class="twitter-item">
+                            <div class="twitter-content">
+                                <h5>
+                                    Number 3 behind Dan Kura Adamu's Residence, off Zoo Road, Kano , Nigeria.
+                                </h5>
+                            </div>
+                            <hr style="margin: 10px 0px">
+                            <div class="twitter-content">
+                                <h5>
+                                    Block A2 Kundila housing estate gandun albasa, Kano, Nigeria.
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 item">
+                    <div class="f-item link full">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="https://csadi.org/about">About Us</a></li>
+                            <li><a href="https://csadi.org/contact">Contact</a></li>
+                            <li><a href="https://csadi.org/gallery">Gallery</a></li>
+                            <li><a href="https://csadi.org/projects">Projects</a></li>
+                            <li><a href="https://csadi.org/policies">Policies</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 item">
+                    <div class="f-item link full">
+                        <h4>Social Links</h4>
+                        <ul>
+                            <li><a href="#"><i class="fab fa-facebook socials fbSocials"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin socials lkSocials"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Start Footer Bottom -->
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="col-md-6 logo">
+                        <img src="CSADI%20-%20Home_files/logo-light_yHaQ.png" alt="Logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Footer Bottom -->
+</footer>    <!-- End Footer -->
+
+    <!-- jQuery Frameworks ============================================= -->
+    <script type="text/javascript" async="" src="CSADI%20-%20Home_files/bundle_yHaQ.js"></script><script src="CSADI%20-%20Home_files/jquery-1.12.4.min_yHaQ.js"></script>
+<script src="CSADI%20-%20Home_files/bootstrap.min_yHaQ.js"></script>
+<script src="CSADI%20-%20Home_files/equal-height.min_yHaQ.js"></script>
+<script src="CSADI%20-%20Home_files/jquery.appear_yHaQ.js"></script>
+<script src="CSADI%20-%20Home_files/jquery.easing.min_yHaQ.js"></script>
+<script src="CSADI%20-%20Home_files/jquery.magnific-popup.min_yHaQ.js"></script>
+<script src="CSADI%20-%20Home_files/progress-bar.min_yHaQ.js"></script>
+<script src="CSADI%20-%20Home_files/modernizr.custom.13711_yHaQ.js"></script>
+<script src="CSADI%20-%20Home_files/owl.carousel.min_yHaQ.js"></script>
+<script src="CSADI%20-%20Home_files/wow.min_yHaQ.js"></script>
+<script src="CSADI%20-%20Home_files/isotope.pkgd.min_yHaQ.js"></script>
+<script src="CSADI%20-%20Home_files/imagesloaded.pkgd.min_yHaQ.js"></script>
+<script src="CSADI%20-%20Home_files/count-to_yHaQ.js"></script>
+<script src="CSADI%20-%20Home_files/bootsnav_yHaQ.js"></script>
+<script src="CSADI%20-%20Home_files/YTPlayer.min_yHaQ.js"></script>
+<script src="CSADI%20-%20Home_files/main_yHaQ.js"></script>
+
+
+<script id="chatway" async="true" src="CSADI%20-%20Home_files/widget_yHaQ.js"></script>
+
+<!-- GetButton.io widget -->
+<script type="text/javascript">
+    (function () {
+        var options = {
+            whatsapp: "+234 806 572 5403", // WhatsApp number
+            call_to_action: "Message us", // Call to action
+            position: "left", // Position may be 'right' or 'left'
+        };
+        var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+    })();
+</script>
+<!-- /GetButton.io widget -->    <!-- Livewire Scripts -->
+<script src="CSADI%20-%20Home_files/livewire_yHaQ.js" data-csrf="R85txo2YuXym2g66pqCUCxhuFbm8OrWiPGhAyhex" data-update-uri="/livewire/update" data-navigate-once="true"></script>
+
+
+</div><div id="gb-widget-1485" script-id="false" style="
+    bottom: 14px !important;
+    left: 16px !important;
+    // opacity: 0;
+    // transition: opacity 0.5s;
+    box-sizing: border-box;
+    position: fixed !important;
+    z-index: 16000160 !important;
+    direction: ltr;
+    text-align: left;
+    display: false;
+    align-items: false;
+    flex-direction: row-reverse;
+  "><div class="sc-q8c6tt-3 kvLxar"><div color="#4dc247" size="50" class="sc-q8c6tt-1 ljrDDi"><a size="50" href="https://wa.me/2348065725403" target="_blank" aria-label="Go to whatsapp" color="#4dc247" id="" direction="column" order="whatsapp" class="sc-q8c6tt-0 bvGVHZ"><svg viewBox="0 0 32 32" style="width: 100%; height: 100%; fill: rgb(255, 255, 255); stroke: none;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M19.11 17.205c-.372 0-1.088 1.39-1.518 1.39a.63.63 0 0 1-.315-.1c-.802-.402-1.504-.817-2.163-1.447-.545-.516-1.146-1.29-1.46-1.963a.426.426 0 0 1-.073-.215c0-.33.99-.945.99-1.49 0-.143-.73-2.09-.832-2.335-.143-.372-.214-.487-.6-.487-.187 0-.36-.043-.53-.043-.302 0-.53.115-.746.315-.688.645-1.032 1.318-1.06 2.264v.114c-.015.99.472 1.977 1.017 2.78 1.23 1.82 2.506 3.41 4.554 4.34.616.287 2.035.888 2.722.888.817 0 2.15-.515 2.478-1.318.13-.33.244-.73.244-1.088 0-.058 0-.144-.03-.215-.1-.172-2.434-1.39-2.678-1.39zm-2.908 7.593c-1.747 0-3.48-.53-4.942-1.49L7.793 24.41l1.132-3.337a8.955 8.955 0 0 1-1.72-5.272c0-4.955 4.04-8.995 8.997-8.995S25.2 10.845 25.2 15.8c0 4.958-4.04 8.998-8.998 8.998zm0-19.798c-5.96 0-10.8 4.842-10.8 10.8 0 1.964.53 3.898 1.546 5.574L5 27.176l5.974-1.92a10.807 10.807 0 0 0 16.03-9.455c0-5.958-4.842-10.8-10.802-10.8z"></path></svg></a></div></div><a size="50" type="link" href="https://getbutton.io/?utm_campaign=multy_widget&amp;utm_medium=widget&amp;utm_source=csadi.org" target="_blank" aria-label="Go to GetButton.io website" class="sc-sbsi7l-0 ijfSyc"><div class="sc-1au8ryl-0 dkuywW"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 58.16 10.15"><path d="M2.49,6.42,1.65,9.75c-.09.27.18.54.4.21L3.68,7.89A5.49,5.49,0,0,0,4.76,8C7.4,8,9.53,6.21,9.53,4S7.4,0,4.76,0,0,1.79,0,4A3.47,3.47,0,0,0,.24,5.25a.45.45,0,0,0,.49.18,7.07,7.07,0,0,0,.7-.26s.24-.1.19-.48h0A2,2,0,0,1,1.49,4C1.49,2.62,3,1.5,4.76,1.5S8,2.62,8,4,6.57,6.5,4.76,6.5a4.06,4.06,0,0,1-1.68-.36A.49.49,0,0,0,2.49,6.42Z" fill="#afafaf"></path><path d="M11.12,10.15H11l-1.49-.9a5.45,5.45,0,0,1-2.4.6,4.16,4.16,0,0,1-2.27-.62L5,9.17c2.22,0,5.43-1.66,5.61-4.37h0a3,3,0,0,1,.57,1.86,2.33,2.33,0,0,1-.65,1.64l.52,1.29s.22.44.16.51-.06.05-.11.05Z" fill="#afafaf"></path><path d="M49.84,3.21h0a2.33,2.33,0,0,1,2.32,2.34v1.3a2.33,2.33,0,0,1-2.32,2.33h0a2.34,2.34,0,0,1-2.33-2.33V5.55A2.34,2.34,0,0,1,49.84,3.21Zm0,1.16h0a1,1,0,0,1,1,1V7a1,1,0,0,1-1,1h0a1,1,0,0,1-1-1V5.39A1,1,0,0,1,49.84,4.37Z" fill="#afafaf" fill-rule="evenodd"></path><path d="M55.83,3.21h0a2.34,2.34,0,0,1,2.33,2.34V9.06H56.84V5.39a1,1,0,0,0-1-1h0a1,1,0,0,0-1,1V9.06H53.5V5.55A2.34,2.34,0,0,1,55.83,3.21Z" fill="#afafaf"></path><path d="M36.93,9.06h0a2.33,2.33,0,0,0,2.33-2.32V3.21H37.94V6.9a1,1,0,0,1-1,1h0a1,1,0,0,1-1-1V3.21H34.6V6.74A2.33,2.33,0,0,0,36.93,9.06Z" fill="#afafaf"></path><polygon points="43.2 3.37 42.12 3.37 42.12 1.79 40.97 1.79 40.97 3.37 39.91 3.37 40.26 4.39 40.97 4.39 40.97 9.03 42.12 9.03 42.12 4.39 43.2 4.39 43.2 3.37" fill="#afafaf"></polygon><polygon points="46.76 3.37 45.67 3.37 45.67 1.79 44.52 1.79 44.52 3.37 43.47 3.37 43.81 4.39 44.52 4.39 44.52 9.03 45.67 9.03 45.67 4.39 46.76 4.39 46.76 3.37" fill="#afafaf"></polygon><path d="M28.56,1.73H30.9a3.48,3.48,0,0,1,1.34.18,1.53,1.53,0,0,1,.66.63,2.11,2.11,0,0,1,.27,1,2,2,0,0,1-.23.95,1.6,1.6,0,0,1-.59.64,1.49,1.49,0,0,1,.8.64,2.09,2.09,0,0,1,.3,1.11,2.31,2.31,0,0,1-.38,1.35,1.54,1.54,0,0,1-.88.68A9,9,0,0,1,30.54,9h-2ZM29.73,3V4.64h.78a7.06,7.06,0,0,0,.87,0,.71.71,0,0,0,.47-.26A.86.86,0,0,0,32,3.77a.91.91,0,0,0-.14-.52A.64.64,0,0,0,31.55,3a8.16,8.16,0,0,0-1.14,0Zm0,2.9V7.79h1.1a3.49,3.49,0,0,0,.92-.07.71.71,0,0,0,.35-.3,1.13,1.13,0,0,0,.13-.58,1.2,1.2,0,0,0-.14-.59.88.88,0,0,0-.4-.32,4.1,4.1,0,0,0-1-.08Z" fill="#afafaf"></path><polygon points="27.56 3.37 26.47 3.37 26.47 1.79 25.32 1.79 25.32 3.37 24.27 3.37 24.62 4.39 25.32 4.39 25.32 9.03 26.47 9.03 26.47 4.39 27.56 4.39 27.56 3.37" fill="#afafaf"></polygon><path d="M21.49,3.21h0a2.34,2.34,0,0,1,2.33,2.34v1H20.48V7c0,1.25,1.94,1.19,2.3.72l1,.72c-1.13,1.36-4.59.87-4.59-1.61V5.55A2.34,2.34,0,0,1,21.49,3.21Zm-1,2.38h2v-.2a1,1,0,0,0-1-1h0a1,1,0,0,0-1,1Z" fill="#afafaf"></path><path d="M17.27,3.05a3.82,3.82,0,0,0-2.68,0,1.14,1.14,0,0,0-.5.79h0V6.86a1.17,1.17,0,0,0,1.06,1,3.9,3.9,0,0,0,1.54-.09V6.12H15.9V4.77H18v3.4a.64.64,0,0,1-.31.64,4.55,4.55,0,0,1-2.73.4A2.52,2.52,0,0,1,12.75,7V3.79h0a2.67,2.67,0,0,1,1.14-1.92l0,0c1.56-.91,3.82,0,3.83,0Z" fill="#afafaf"></path></svg></div></a></div><div class="chatway--container has-loaded preview--open" style="--preview-only-bottom: 90px;"><div class="chatway--frame-container chatway--preview--only--container" style="bottom: 90px;"><iframe class="chatway--widget-frame" src="CSADI%20-%20Home_files/a_yHaQ.htm" id="chatway_widget_app" title="Live chat widget"></iframe></div><div class="chatway--trigger-container" style="bottom: 20px;"><div id="chatway_widget_trigger" class="chatway--trigger-icon-container" style="width: 60px; height: 60px;"><div class="chatway-launcher none-effect" style="background: rgb(4, 70, 222);"><button class="launcher-icon launcher-default-open-icon launcher-default-open-animated" style="color: rgb(255, 255, 255); background: rgb(4, 70, 222);"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M23.9473 4C26.7378 4 29 6.26224 29 9.05273V22.2236C28.9998 25.0139 26.7376 27.2754 23.9473 27.2754H20.8984C20.1689 27.2754 19.4749 27.5911 18.9951 28.1406L17.2539 30.1367C16.8554 30.5934 16.1446 30.5934 15.7461 30.1367L14.0049 28.1406C13.5251 27.5911 12.8311 27.2754 12.1016 27.2754H9.05273C6.26238 27.2754 4.00022 25.0139 4 22.2236V9.05273C4 6.26224 6.26224 4 9.05273 4H23.9473ZM12.5 18.5C11.7903 18.5 11 18.4711 11 19.0518C11.0001 21.2325 13.3347 24 16 24H17C19.6653 24 21.9999 21.2325 22 19.0518C22 18.4711 21.2097 18.5 20.5 18.5H12.5Z" fill="currentColor"></path>
+      </svg><span class="sr-only">Show Chatway Messenger</span></button><button class="launcher-icon launcher-minimize-icon" style="background: rgb(4, 70, 222); color: rgb(255, 255, 255);"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M8 12L16 20L24 12" stroke="currentColor" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"></path>
+      </svg><span class="sr-only">Hide Chatway Messenger</span></button></div></div></div></div></body></html>
